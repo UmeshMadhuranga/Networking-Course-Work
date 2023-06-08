@@ -51,7 +51,7 @@
             <Font size="19.0" />
          </font>
       </Label>
-      <Button disable="true" layoutX="109.0" layoutY="500.0" mnemonicParsing="false" onAction="#btnSignInOnAction" opacity="0.0" prefHeight="28.0" prefWidth="112.0" style="-fx-background-color: #718792; -fx-background-radius: 90;" styleClass="btnLogin" stylesheets="@../css/style.css" text="Sign Up Here" textFill="#004c40">
+      <Button disable="true" layoutX="109.0" layoutY="500.0" mnemonicParsing="false" opacity="0.0" prefHeight="28.0" prefWidth="112.0" style="-fx-background-color: #718792; -fx-background-radius: 90;" styleClass="btnLogin" stylesheets="@../css/style.css" text="Sign Up Here" textFill="#004c40">
          <font>
             <Font size="14.0" />
          </font>

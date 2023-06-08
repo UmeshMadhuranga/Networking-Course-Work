@@ -17,12 +17,15 @@ public class LoginFormController {
     public AnchorPane pane;
 
     public void btnLoginOnAction(ActionEvent actionEvent) throws IOException {
-//        Navigation.navigate(Routes.SERVER, pane);
+        ClientFormController.userName = txtUserName.getText();
+
+        txtUserName.clear();
+
         Stage stage = new Stage();
-        stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("../view/ServerForm.fxml"))));
+        stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("../view/ClientForm.fxml"))));
         stage.show();
     }
 
-    public void btnSignInOnAction(ActionEvent actionEvent) {
-    }
+//    public void btnSignInOnAction(ActionEvent actionEvent) {
+//    }
 }
